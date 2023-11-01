@@ -1,0 +1,12 @@
+.category__list {
+  list-style: none;
+  align-items: center;
+}
+
+.category__list_item {
+  display: flex;
+  margin-bottom: 10px;
+}
+.category__list_item .MuiButton-containedPrimary {
+  margin-left: 100px;
+}

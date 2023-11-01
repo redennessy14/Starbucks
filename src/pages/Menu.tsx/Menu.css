@@ -1,0 +1,92 @@
+.menu {
+  display: flex;
+}
+.ifblock {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.ifblock h3 {
+  margin: 70px 0 25px 100px;
+}
+
+.ifblock__filter_item {
+  cursor: pointer;
+  margin: 25px 0 0 100px;
+}
+.ifblock__filter_item:hover {
+  text-decoration: underline;
+}
+
+.menu_block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.custom__card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 250px;
+  height: 400px;
+  padding: 50px;
+  border-radius: 25px;
+  align-items: center;
+  color: rgb(44, 197, 120);
+  background-image: url("../../images/inner_artwork.png");
+  background-color: rgb(3, 102, 53);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(0.7);
+}
+
+.custom__card:hover {
+  transform: scale(0.8);
+}
+.custom__card_img {
+  max-width: 250px;
+  margin: 0 auto;
+  position: absolute;
+  top: -20%;
+  max-height: 200px;
+  z-index: -1;
+}
+.custom__card_img img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.custom__card_name {
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 150px;
+}
+
+.custom__card_btn {
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  align-self: flex-end;
+}
+
+.custom__card_price {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+.delete-button {
+  background-color: rgb(205, 47, 47);
+  color: white;
+}

@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+.navbar__item1 {
+  display: flex;
+  gap: 20px;
+}
+.navbar__item1 :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.navbar__item2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar__item2 :hover {
+  cursor: pointer;
+}
+.logo {
+  width: 107px;
+}
+.total_price {
+  margin: 25px 0 0 25px;
+}
